@@ -18,7 +18,7 @@
 |---|---|
 | [음성인식 기반 조명 제어](https://github.com/jounget5411-lab/embedded-voice-lighting-portfolio) | 두 MCU에 정수 DSP와 추론을 나누고, SPI/UART 통신과 근접 감지를 조명 제어에 연결 |
 | [음원 방향 추정·수어 번역](https://github.com/jounget5411-lab/embedded-sensor-fusion-portfolio) | ADC/DMA 음원 입력과 센서 장갑의 특징을 처리하고, 세 STM32 보드를 LED·LCD 출력으로 통합 |
-| [접근 감지·사진 판별·선별 저장](https://github.com/jounget5411-lab/embedded-intrusion-detection-portfolio) | STM32 촬영·SPI/DMA 전송과 Zynq의 FreeRTOS 수신·C 추론·SD 저장 연결 |
+| [접근 감지·사진 선별 저장](https://github.com/jounget5411-lab/embedded-intrusion-detection-portfolio) | STM32 촬영·SPI/DMA 전송과 Zynq의 FreeRTOS 수신·C 추론·SD 저장 연결 |
 
 ## 자율주행
 
