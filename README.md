@@ -1,8 +1,8 @@
 # EUNTAEK JEONG · Engineering Portfolio
 
-**FPGA · 임베디드 시스템 · 자율주행**
+**FPGA · 회로설계 · 임베디드 시스템 · 자율주행**
 
-신호처리·디지털회로·AI·제어를 실제 보드와 차량에서 연결한 프로젝트입니다. 프로젝트 이름을 누르면 전체 구조, 주요 결과와 시연을 볼 수 있고, 상세 문서에서 설계·검증 과정과 코드를 확인할 수 있습니다.
+신호처리·디지털회로·AI·제어를 회로·보드·차량의 설계와 검증에 연결한 프로젝트입니다. 프로젝트 이름을 누르면 전체 구조와 주요 결과를 볼 수 있고, 상세 문서에서 설계·검증 과정, 코드와 시연을 확인할 수 있습니다.
 
 ## 종합설계
 
@@ -11,6 +11,14 @@
 카메라 입력부터 AI 추론과 팬틸트 제어까지 **Zybo Z7-20 한 보드에 통합**했습니다. SNN으로 움직임을 감시하고, 비행 후보가 잡히면 CNN으로 위치를 검출하는 두 단계 구조입니다.
 
 `Verilog` · `C/C++` · `AXI/VDMA` · `SNN` · `INT8 CNN`
+
+## 회로설계
+
+| 프로젝트 | 핵심 설계 |
+|---|---|
+| [VLSI 풀커스텀](https://github.com/jounget5411-lab/vlsi-full-custom-portfolio) | 클록 생성기와 곱셈 회로의 Schematic·Layout·DRC/LVS·Post-layout 검증 |
+| [디지털 RTL](https://github.com/jounget5411-lab/digital-rtl-portfolio) | RISC_TOY CPU의 파이프라인·hazard 처리와 MAC array 행렬곱 가속기 |
+| [AER 이벤트 라우터](https://github.com/jounget5411-lab/aer-hardware-portfolio) | 다중 이벤트 입력의 중재·집계·패킷 전달과 계층 구조 검증 · 진행 중 |
 
 ## 임베디드 시스템
 
